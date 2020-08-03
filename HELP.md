@@ -55,16 +55,14 @@ Reads the cities connections data from csv file and exposes a rest endpoint
 
 Enhancements:
     1. GraphDB can be used for storing the data  
-    2. More endpoints can be exposed to print the full path instead of yes/no
+    2. More endpoints can be exposed to print the full path instead of yes/no  
      if the connection exists  
     3. Proper Junit test coverage has been done but full Integration testing
      can be added  
-    3. Given the distance between, shorted distance between the nodes can be
-     implemented.
+    3. Given the distance between all the nodes, shortest distance between the
+     nodes can be implemented.
     
-   
-        
-
+ 
 ### 
    1. User passes Origin and Destination cities as part of request params
 
